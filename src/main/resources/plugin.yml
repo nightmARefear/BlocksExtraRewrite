@@ -1,0 +1,30 @@
+name: BlocksExtraRewrite
+version: ${project.version}
+main: com.alexgreece45.blocksextrarewrite.BlocksExtraRewrite
+api-version: 1.16
+authors: [ AlexGreece45 ]
+
+commands:
+  blocks:
+    usage: /<command>
+    description: ...
+
+  blocks total:
+    usage: /<command>
+    description: Get the total amount of broken blocks.
+
+  getminingpickaxe:
+    usage: /<command>
+    description: Gets the predefined (default) mining pickaxe; by which you get exp.
+
+  createhud:
+    usage: /<command>
+    description: Creates a hud.
+
+  createscoreboard:
+    usage: /<command>
+    description: Creates a scoreboard.
+
+  back:
+    usage: /<command>
+    description: Returns the player to their previous death location.
